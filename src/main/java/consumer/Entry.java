@@ -9,11 +9,6 @@ import org.springframework.beans.factory.annotation.*;
 @Controller
 @SpringBootApplication
 public class Entry {
-    @RequestMapping("/")
-    String home() {
-	return "API for Genève en été";
-    }
-
     public static void main(String[] args) throws Exception {
 	SpringApplication.run(Entry.class, args);
     }

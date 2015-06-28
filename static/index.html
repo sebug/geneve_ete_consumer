@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genève en été consumer</title>
+  </head>
+  <body>
+    <h1>Genève en été consumer</h1>
+    <div id="editForm">
+      <div>
+	<label for="date">Date:</label> <input type="date" id="date" />
+      </div>
+      <div>
+	<label for="title">Title:</label> <input type="text" id="title" />
+      </div>
+      <div>
+	<label for="favorite">Favorite:</label> <input type="checkbox" id="favorite" />
+      </div>
+      <div class="tags">
+	
+      </div>
+      <div>
+	<input type="button" onclick="agenda.addTag()" value="Add Tag" />
+      </div>
+      <div>
+	<input type="button" onclick="agenda.create()" value="Create" />
+      </div>
+    </div>
+    <script src="agenda.js"></script>
+  </body>
+</html>
